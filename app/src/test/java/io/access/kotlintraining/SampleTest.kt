@@ -7,7 +7,6 @@ class SampleTest {
     @Test
     fun testWelcome() {
         welcome()
-        helloWorld()
 
         // Example of test
         val expected = 1
@@ -18,5 +17,13 @@ class SampleTest {
     @Test
     fun testHello() {
         // TODO: implement to call hello function
+        helloWorld()
+    }
+
+    @Test
+    fun testFizzBuzz() {
+        for(i in 1..100){
+            println(fizzbuzz(i))
+        }
     }
 }
